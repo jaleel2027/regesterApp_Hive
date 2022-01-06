@@ -23,6 +23,7 @@ class ListStudent extends StatelessWidget {
                print('no value to delete');
                const snackBar = SnackBar(
                  content: Text('no value. Unable to delete'),
+                 duration: Duration(seconds: 1),
                  backgroundColor: Colors.red,
                );
                ScaffoldMessenger.of(context).showSnackBar(snackBar);
